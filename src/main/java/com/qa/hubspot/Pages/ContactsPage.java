@@ -18,6 +18,7 @@ public class ContactsPage extends BasePage{
 	By lname = By.id("uid-ctrl-3");
 	By jobtitle = By.id("uid-ctrl-5");
 	By designation = By.id("uid-ctrl-7");
+	By experience = By.id("uid-ctrl-8");
 	
 	public ContactsPage(WebDriver driver)
 	{
