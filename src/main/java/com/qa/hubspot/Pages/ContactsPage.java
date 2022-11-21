@@ -16,7 +16,7 @@ public class ContactsPage extends BasePage{
 	By email = By.id("uid-ctrl-1");
 	By fname = By.id("uid-ctrl-2");
 	By lname = By.id("uid-ctrl-3");
-	By jobtitle = By.id("uid-ctrl-5");
+	//By jobtitle = By.id("uid-ctrl-5");
 	By designation = By.id("uid-ctrl-7");
 	By experience = By.id("uid-ctrl-8");
 	
@@ -44,8 +44,8 @@ public class ContactsPage extends BasePage{
 		
 		
 		
-		wait.until(ExpectedConditions.elementToBeClickable(email));
-		elementactions.ElementsendKeys(jobtitle, title);
+		//wait.until(ExpectedConditions.elementToBeClickable(email));
+		//elementactions.ElementsendKeys(jobtitle, title);
 		
 		
 		
